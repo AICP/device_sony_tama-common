@@ -18,6 +18,7 @@ PLATFORM_COMMON_PATH := device/sony/tama-common
 SOMC_PLATFORM := tama
 SOMC_KERNEL_VERSION := 4.14
 KERNEL_PATH := kernel/sony/msm-$(SOMC_KERNEL_VERSION)
+
 SONY_ROOT := $(PLATFORM_COMMON_PATH)/rootdir
 
 # Overlay
@@ -172,3 +173,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 $(call inherit-product, device/sony/common/common.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
+$(call inherit-product, $(PLATFORM_COMMON_PATH)/recovery/twrp.mk)
