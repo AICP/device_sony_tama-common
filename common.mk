@@ -238,6 +238,10 @@ PRODUCT_PACKAGES += \
     ipacm \
     IPACM_cfg.xml
 
+# JamesDSP
+PRODUCT_PACKAGES += \
+    JamesDSPManager
+
 # LiveDisplay
 PRODUCT_PACKAGES += \
     vendor.lineage.livedisplay@2.0-service-sdm
