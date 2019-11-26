@@ -13,7 +13,7 @@
 # limitations under the License.
 
 # Platform path
-PLATFORM_COMMON_PATH := device/sony/tama
+PLATFORM_COMMON_PATH := device/sony/tama-common
 
 SOMC_PLATFORM := tama
 SOMC_KERNEL_VERSION := 4.14
