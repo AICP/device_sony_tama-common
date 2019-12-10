@@ -138,8 +138,6 @@ PRODUCT_PACKAGES += \
     gps.sdm845
 
 # CAMERA
-TARGET_USES_64BIT_CAMERA := true
-
 PRODUCT_PACKAGES += \
     camera.sdm845
 
