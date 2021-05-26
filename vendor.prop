@@ -103,6 +103,8 @@ ro.frp.pst=/dev/block/bootdevice/by-name/frp
 # Graphics
 debug.egl.hw=0
 debug.sf.hw=0
+ro.hardware.egl=adreno
+ro.hardware.vulkan=adreno
 ro.opengles.version=196610
 persist.demo.hdmirotationlock=false
 persist.sys.sf.native_mode=0
@@ -136,9 +138,6 @@ ro.vendor.audio.soundtrigger.vop.adsp.level=10
 ro.vendor.audio.soundtrigger.training.level=60
 ro.vendor.audio.soundtrigger.hist.duration=1500
 
-# Perf
-ro.vendor.extension_library=libqti-perfd-client.so
-
 # Radio
 DEVICE_PROVISIONED=1
 ril.subscription.types=NV,RUIM
@@ -161,3 +160,6 @@ telephony.lteOnCdmaDevice=0
 
 # Sensors
 persist.vendor.sensors.direct_channel=false
+
+# Perf
+ro.vendor.extension_library=libqti-perfd-client.so
