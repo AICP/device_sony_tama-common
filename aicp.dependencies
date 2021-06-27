@@ -2,9 +2,5 @@
   {
     "repository": "AICP/kernel_sony_sdm845",
     "target_path": "kernel/sony/sdm845"
-  },
-  {
-    "repository": "AICP/proprietary_vendor_sony",
-    "target_path": "vendor/sony"
   }
 ]
